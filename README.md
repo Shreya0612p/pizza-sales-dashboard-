@@ -1,79 +1,91 @@
 🍕 Pizza Sales Analysis Dashboard
- Purpose
-This Power BI dashboard helps analyze pizza sales data to understand customer preferences, order trends, and product performance. It helps business users make data-driven decisions by highlighting key insights across different metrics like revenue, quantity sold, and order trends.
+📌 Purpose
+This interactive Power BI dashboard helps analyze pizza sales data to uncover customer preferences, sales trends, and product performance. It enables business users to make informed, data-driven decisions using key insights across metrics like revenue, order volume, and top-selling items.
 
- Tech Stack
-Power BI Desktop – For building visuals and layout.
+🛠️ Tech Stack
+Power BI Desktop – For dashboard creation and visuals
 
-Power Query – For cleaning and transforming raw data.
+Power Query – Data cleaning and transformation
 
-DAX – For calculated measures like total revenue and average pizzas per order.
+DAX (Data Analysis Expressions) – Calculated KPIs (e.g., total revenue, average order value)
 
-Data Modeling – Built relationships between tables (e.g., pizza category, size, sales).
+Data Modeling – Relationships between sales, category, and size tables
 
-File Format – .pbix for Power BI and screenshots for dashboard previews.
+File Format – .pbix for the report, .png for dashboard screenshots
 
- Data Source
-Source: Pizza Sales Data - Google Spreadsheet 
-Data Description:
+📂 Data Source
+Source: Google Sheets – Pizza Sales Dataset
 
-The dataset contains historical pizza sales data from January to December 2015.
-Contains: Order details like pizza name, category, size, quantity, price, and order date.
+Description:
+Historical pizza order data from Jan to Dec 2015, including:
 
- Key Features / Highlights
- Business Problem
-Pizza chains want to know which pizzas sell best, which size or category drives revenue, and when customers place the most orders to optimize marketing and inventory.
+Pizza Name, Category & Size
 
- Goal
-Build a dashboard that answers:
+Quantity & Price
 
-Which pizzas are top/bottom sellers?
+Order Date
 
-What are the sales trends by time, category, and size?
+🌟 Key Features & Highlights
+💼 Business Problem
+Pizza chains need to identify which products drive revenue, what times generate the most orders, and which items are underperforming — to better manage inventory, marketing, and product strategy.
 
-Which days or months are busiest?
+🎯 Goal
+Build a dashboard to answer:
 
-Walkthrough of Key Visuals
- Main KPIs                                                                                                                                                                                                 Total Revenue: ₹817.86K
+Which pizzas are best and worst sellers?
 
-Average Order Value: ₹38.31
+What are the order trends by day, month, category, and size?
 
-Total Pizzas Sold: 50K
+When do customers order the most?
 
-Total Orders: 21K
+📊 Walkthrough of Key Visuals
+🔢 Main KPIs
+Metric	Value
+💰 Total Revenue	₹817.86K
+🧾 Avg. Order Value	₹38.31
+🍕 Total Pizzas Sold	50K
+📦 Total Orders	21K
+📊 Avg. Pizzas per Order	2.32
 
-Avg. Pizzas per Order: 2.32
+📈 Order Trends
+Daily Trend: Bar chart showing peak days (Friday & Saturday)
 
- Order Trends
-Daily Trends: Bar chart showing peak days (Friday & Saturday).
-
-Monthly Trends: Line chart showing highest sales in July and January.
+Monthly Trend: Line chart showing spikes in July and January
 
 🍕 Sales Performance
-% Sales by Pizza Category: Pie chart showing Classic is most popular.
+% Sales by Pizza Category:
 
-% Sales by Pizza Size: Large size has highest share (45.89%).
+Classic is most popular
 
-Total Pizzas by Category: Bar chart comparison.
+% Sales by Size:
 
- Top 5 Best Sellers (by Revenue, Quantity, Orders)
-Thai Chicken, Barbecue Chicken, etc. lead in revenue.
+Large size dominates (45.89%)
 
-Classic Deluxe leads in quantity sold.
+Total Pizzas Sold by Category:
+
+Visual comparison using bar chart
+
+🏆 Top 5 Best Sellers
+By Revenue: Thai Chicken, Barbecue Chicken, etc.
+
+By Quantity: Classic Deluxe Pizza
+
+By Orders: Most frequently ordered items
 
 📉 Bottom 5 Worst Sellers
-The Brie Carre pizza has the lowest sales and quantity.
+Brie Carre Pizza has lowest sales & quantity
 
-Helps identify underperforming items.
+Helps identify underperforming products
 
- Business Impact
-Marketing Focus: Target popular days and high-selling pizzas for promotions.
+💡 Business Impact
+🎯 Marketing Focus: Promote high-selling pizzas and peak days
 
-Inventory Planning: Stock more of high-demand pizzas/sizes.
+📦 Inventory Management: Stock high-demand pizzas and sizes
 
-Product Strategy: Phase out low-performing items.
+🚫 Product Optimization: Identify and phase out low performers
 
-Customer Insights: Understand preferences based on size/category trends.
+👥 Customer Insight: Understand preferences by category and size
+
 screenshots:![dabshboard 1](https://github.com/user-attachments/assets/11775014-c7a8-4515-8c38-8bdfd99af448)
 ![dashboard 2](https://github.com/user-attachments/assets/40a763de-f6c5-4c27-8f24-1036222b448e)
 
