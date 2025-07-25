@@ -1,90 +1,116 @@
 🍕 Pizza Sales Analysis Dashboard
 📌 Purpose
-This interactive Power BI dashboard helps analyze pizza sales data to uncover customer preferences, sales trends, and product performance. It enables business users to make informed, data-driven decisions using key insights across metrics like revenue, order volume, and top-selling items.
+This interactive Power BI dashboard provides a comprehensive analysis of pizza sales data to uncover:
+
+Customer preferences
+
+Sales trends
+
+Product performance
+
+It empowers business users to make informed, data-driven decisions by offering insights into key metrics such as revenue, order volume, and best/worst-selling items.
 
 🛠️ Tech Stack
-Power BI Desktop – For dashboard creation and visuals
+Power BI Desktop – For dashboard design and data visualizations
 
-Power Query – Data cleaning and transformation
+Power Query – For data cleaning and transformation
 
-DAX (Data Analysis Expressions) – Calculated KPIs (e.g., total revenue, average order value)
+DAX (Data Analysis Expressions) – For calculated KPIs like Total Revenue and Average Order Value
 
-Data Modeling – Relationships between sales, category, and size tables
+Data Modeling – Relationships between tables: sales, category, and size
 
-File Format – .pbix for the report, .png for dashboard screenshots
+MySQL – Used to query and preprocess raw data before importing
+
+File Formats – .pbix (Power BI file), .png (Dashboard screenshot)
 
 📂 Data Source
-Source: Google Sheets – Pizza Sales Dataset
+Source: Google Sheets
 
-Description:
-Historical pizza order data from Jan to Dec 2015, including:
+Dataset: Historical pizza order data from Jan to Dec 2015
 
-Pizza Name, Category & Size
+Fields Included:
 
-Quantity & Price
+Pizza Name, Category, Size
+
+Quantity, Price
 
 Order Date
 
-🌟 Key Features & Highlights
 💼 Business Problem
-Pizza chains need to identify which products drive revenue, what times generate the most orders, and which items are underperforming — to better manage inventory, marketing, and product strategy.
+Pizza chains must understand:
 
-🎯 Goal
-Build a dashboard to answer:
+Which products generate the most revenue
 
-Which pizzas are best and worst sellers?
+Which days and months drive maximum orders
 
-What are the order trends by day, month, category, and size?
+Which pizzas are underperforming
 
-When do customers order the most?
+This insight helps in inventory planning, marketing strategies, and product optimization.
+
+🎯 Dashboard Goals
+Answer key business questions:
+
+✅ Which pizzas are the best and worst sellers?
+
+✅ What are the order trends by day, month, category, and size?
+
+✅ When do customers order the most pizzas?
 
 📊 Walkthrough of Key Visuals
 🔢 Main KPIs
 Metric	Value
 💰 Total Revenue	₹817.86K
 🧾 Avg. Order Value	₹38.31
-🍕 Total Pizzas Sold	50K
-📦 Total Orders	21K
-📊 Avg. Pizzas per Order	2.32
+🍕 Total Pizzas Sold	50,000
+📦 Total Orders	21,000
+📊 Avg. Pizzas/Order	2.32
 
 📈 Order Trends
-Daily Trend: Bar chart showing peak days (Friday & Saturday)
+Daily Trend (Bar Chart):
 
-Monthly Trend: Line chart showing spikes in July and January
+Peak days: Friday and Saturday
+
+Monthly Trend (Line Chart):
+
+Spikes in July and January
 
 🍕 Sales Performance
-% Sales by Pizza Category:
+% Sales by Category:
 
-Classic is most popular
+Most popular: Classic
 
 % Sales by Size:
 
-Large size dominates (45.89%)
+Large dominates: 45.89%
 
 Total Pizzas Sold by Category:
 
-Visual comparison using bar chart
+Bar chart visualization of category-wise volume
 
 🏆 Top 5 Best Sellers
-By Revenue: Thai Chicken, Barbecue Chicken, etc.
+By Revenue:
 
-By Quantity: Classic Deluxe Pizza
+Thai Chicken, Barbecue Chicken, etc.
 
-By Orders: Most frequently ordered items
+By Quantity:
+
+Classic Deluxe Pizza
+
+By Orders:
+
+Most frequently ordered items
 
 📉 Bottom 5 Worst Sellers
-Brie Carre Pizza has lowest sales & quantity
+Lowest Performer: Brie Carre Pizza
 
-Helps identify underperforming products
+Insights: Low quantity, low revenue – potential candidate for discontinuation
 
 💡 Business Impact
-🎯 Marketing Focus: Promote high-selling pizzas and peak days
-
-📦 Inventory Management: Stock high-demand pizzas and sizes
-
-🚫 Product Optimization: Identify and phase out low performers
-
-👥 Customer Insight: Understand preferences by category and size
+Area	Insight/Action
+🎯 Marketing Focus	Promote top-selling pizzas on peak days
+📦 Inventory Management	Stock high-demand pizzas and popular sizes
+🚫 Product Optimization	Identify and phase out low-performing items
+👥 Customer Insights	Understand preferences by category and size
 
 screenshots:![dabshboard 1](https://github.com/user-attachments/assets/11775014-c7a8-4515-8c38-8bdfd99af448)
 ![dashboard 2](https://github.com/user-attachments/assets/40a763de-f6c5-4c27-8f24-1036222b448e)
